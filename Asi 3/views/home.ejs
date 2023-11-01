@@ -1,0 +1,10 @@
+<h2>Список блогов</h2>
+<ul>
+  <% blogPosts.forEach((post, index) => { %>
+    <li>
+      <a href="/blogpost/<%= index %>"><%= post.title %></a>
+      <p><%= post.shortContent %></p>
+      <a href="/blogpost/<%= index %>">Читать всё</a>
+    </li>
+  <% }); %>
+</ul>

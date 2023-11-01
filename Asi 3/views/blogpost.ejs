@@ -1,0 +1,11 @@
+<h2><%= post.title %></h2>
+<p><%= post.shortContent %><span id="remainingContent"><%= post.remainingContent %></span></p>
+<a href="javascript:void(0);" onclick="showRemainingContent()">Читать всё</a>
+<br><a href="/">Назад к списку</a>
+
+<script>
+  function showRemainingContent() {
+    const remainingContent = document.getElementById('remainingContent');
+    remainingContent.style.display = 'inline';
+  }
+</script>

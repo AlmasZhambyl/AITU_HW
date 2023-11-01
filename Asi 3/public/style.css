@@ -1,0 +1,108 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(225, 105, 105);
+    color: #3c0808;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #fcfafa;
+    color: #3c0808;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: #3c0808;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    background-color: #8a8888;
+    border: 1px solid #fa0202;
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #3c0808;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  li a.read-more {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+  }
+
+  footer {
+    background-color: #fcfafa;
+    color: #3c0808;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  form {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
